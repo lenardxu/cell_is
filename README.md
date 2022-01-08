@@ -58,3 +58,17 @@ where you can simply name the app name as your project name or something else.
 
 After that, you can then commit and push everything to your github repo. At last, you also need to push them again to heroku 
 by commanding `git push heroku master`.
+
+
+## Git Workflow and Review
+
+The collaboration requires some rules, to keep the code clean:
+* We are using GitHub's pull requests model to integrate new code into our repository.
+* Every pull request is reviewed by one of our maintainers.
+* We foster a git history that is clean, easy to read and to review.
+
+To guarantee this we follow the best practices described [here](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/best-practices#start).
+We use a rebase workflow with short living branches for features and bug fixes (see [here](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/rebase#start)).
+
+One useful link for forked git repo:
+https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
